@@ -1,0 +1,93 @@
+import random
+
+print("***Welcome to the Random Name Generator!!***")
+print("**Type in how many people there are and type in the names!!**")
+print("*Then the computer will randomly generate the names!!*")
+print("How many people are there?")
+People=int(input())
+if(People==2):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+
+if(People==3):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+
+if(People==4):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+  print("Person #4's Name:")
+  person4=input()
+
+if(People==5):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+  print("Person #4's Name:")
+  person4=input()
+  print("Person #5's Name:")
+  person5=input()
+
+if(People==6):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+  print("Person #4's Name:")
+  person4=input()
+  print("Person #5's Name:")
+  person5=input()
+  print("Person #6's Name:")
+  person6=input()
+
+if(People==7):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+  print("Person #4's Name:")
+  person4=input()
+  print("Person #5's Name:")
+  person5=input()
+  print("Person #6's Name:")
+  person6=input()
+  print("Person #7's Name:")
+  person7=input()
+
+if(People==8):
+  print("Person #1's Name:")
+  person1=input()
+  print("Person #2's Name:")
+  person2=input()
+  print("Person #3's Name:")
+  person3=input()
+  print("Person #4's Name:")
+  person4=input()
+  print("Person #5's Name:")
+  person5=input()
+  print("Person #6's Name:")
+  person6=input()
+  print("Person #7's Name:")
+  person7=input()
+  print("Person #8's Name:")
+  person8=input()
+
+PeopleList=[person1,person2,person3,person4,person5,person6,person7,person8]
+print(PeopleList[3]) 
